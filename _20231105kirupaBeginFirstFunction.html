@@ -18,9 +18,22 @@
             alert( speed * time);
         }
 
+/**
+ * Function return distance at the path
+ *
+ * @param {number} speed - Speed at the path
+ * @param {number} time - Nime of path
+ */   
+        function getDistance(speed, time){
+            let distance = speed * time;
+            return distance
+        }
+
         showDistance(5,20);
         showDistance(10,5);
         showDistance(20,45);
+        let distance =   getDistance(25,45);
+        alert(distance)       
     </script>
 </body>
 </html>
