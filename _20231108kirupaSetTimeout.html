@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function showAllert(){
+            alert("Moo!!! :)");
+        }
+        //Объявляем переменную, так как можем при переменной отменить таймер по команде clearTimeout
+        //Если не будем останавливать таймер, то инициализировать переменную не надо
+        let timeoutID = setTimeout(showAllert, 7000);
+        alert("First Time");
+    </script>
+</body>
+</html>
