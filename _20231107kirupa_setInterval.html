@@ -13,8 +13,11 @@
             thingToPrint += "#";
             document.writeln(thingToPrint);
         }
-
-        setInterval(drawText, 2000);
+        
+        // Прервать можно  функцией clearInterval(переменная)
+        // Если прерывать не надо, то в переменную не объявляем
+        
+        let setIntervalID = setInterval(drawText, 2000);
     </script>
 
 </body>
