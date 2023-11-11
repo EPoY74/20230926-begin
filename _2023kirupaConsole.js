@@ -8,9 +8,9 @@ function doSomething(e){
     counter++;
 
     //alert ("Is this working?")
-    console.log("Is this working&" );
-    console.log("We clicked on: " + e.target.id)
-    console.log("Button clicked " + counter + "times!")
+    // console.log("Is this working&" );
+    // console.log("We clicked on: " + e.target.id)
+    console.log("Button clicked " + counter + " times!")
 
     if (counter == 3){
         showMore()
