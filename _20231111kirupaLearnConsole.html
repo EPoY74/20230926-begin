@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Console Staff</title>
+    
     <style>
         #container{
             padding 50px;
@@ -25,7 +26,16 @@
 </head>
 <body>
     <div id="container">
-        <button id = "myButton"> click me</button>
+        <button id = "myButton">Click me</button>
     </div>
+
+    <script>
+        let myButton = document.querySelector("#myButton");
+        myButton.addEventListener("click", doSomething, false)
+
+        function doSomething(e){
+            alert ("Is this working?")
+        }
+    </script>
 </body>
 </html>
