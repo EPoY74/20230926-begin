@@ -26,8 +26,11 @@ console.log(zorb.greeting)
 zorb.greeting = "Omg!!"
 console.log(zorb.greeting)
 
+console.log("<-------------------------->")
 
 console.log(shout.message)
 shout.message = "Hello Kitty!"
 console.log(shout.message)
+
+console.log("<-------------------------->")
 
