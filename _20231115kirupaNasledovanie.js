@@ -16,6 +16,7 @@ let person = {
 function shuffle(inputarr) {
     console.log("<------------------------------------->")
     console.log(inputarr)
+    // let i
     for (let i = inputarr.length - 1; i >= 0; i--) {
 
         let randomIndex = Math.floor(Math.random() * (i + 1))
