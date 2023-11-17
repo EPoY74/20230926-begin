@@ -20,12 +20,23 @@
     </table> 
     <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Представление</button>
-          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Дозвон, успешно</button>
-          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Дозвон, отказ</button>
-          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Недозвон</button>
-          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Перезвон</button>
-          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Ошибка телефонии</button>
+          <button class="nav-link active" id="nav-presentatin-tab" data-bs-toggle="tab" data-bs-target="#nav-presentation"
+           type="button" role="tab" aria-controls="nav-presentation" aria-selected="true">Представление</button>
+          
+           <button class="nav-link" id="nav-isPickedUpOk-tab" data-bs-toggle="tab" data-bs-target="#nav-isPickedUpOk"
+            type="button" role="tab" aria-controls="nav-isPickedUpOk" aria-selected="false">Дозвон, успешно</button>
+          
+           <button class="nav-link" id="nav-isPickedUpRefuze-tab" data-bs-toggle="tab" data-bs-target="#nav-isPickedUpRefuze"
+            type="button" role="tab" aria-controls="nav-isPickedUpRefuze" aria-selected="false">Дозвон, отказ</button>
+          
+           <button class="nav-link" id="nav-isNotPickedUp-tab" data-bs-toggle="tab" data-bs-target="#nav-isNotPickedUp"
+            type="button" role="tab" aria-controls="nav-isNotPickedUp" aria-selected="false">Недозвон</button>
+          
+           <button class="nav-link" id="nav-сallBack-tab" data-bs-toggle="tab" data-bs-target="#nav-сallBack"
+            type="button" role="tab" aria-controls="nav-сallBack" aria-selected="false">Перезвон</button>
+          
+           <button class="nav-link" id="nav-phoneLineError-tab" data-bs-toggle="tab" data-bs-target="#nav-phoneLineError"
+            type="button" role="tab" aria-controls="nav-phoneLineError" aria-selected="false">Ошибка телефонии</button>
 
           
           <!-- <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" disabled>Отключен</button> -->
@@ -33,20 +44,49 @@
       </nav>
       <div class="tab-content" id="nav-tabContent">
   
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-          Это главная страница!!!! Привет, товарищи!
+        <div class="tab-pane fade show active" id="nav-presentation" role="tabpanel" aria-labelledby="nav-presentatin-tab" tabindex="0"> 
+          <table>
+            <thead></thead>
+            <tbody>
+              <tr>
+                <td>
+
+                </td>
+                <td>
+                  <p>Представление продукта</p>
+
+                </td>
+                <td>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="1">
-          Это страница профиля
+        <div class="tab-pane fade" id="nav-isPickedUpOk" role="tabpanel" aria-labelledby="nav-isPickedUpOk-tab" tabindex="1">
+          Дозвон, успешно
+          111
+          222
+          333
         </div>
         
-        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="2">
-          А здесь мы разместим контакты, и ни как иначе
+        <div class="tab-pane fade" id="nav-isPickedUpRefuze" role="tabpanel" aria-labelledby="nav-isPickedUpRefuze-tab" tabindex="2">
+          Дозвон, отказ
         </div>
         
-        <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="3">
-          А это вообще отклбченное окно
+        <div class="tab-pane fade" id="nav-isNotPickedUp" role="tabpanel" aria-labelledby="nav-isNotPickedUp-tab" tabindex="3">
+          Недозвон
+        </div>
+
+        
+        <div class="tab-pane fade" id="nav-сallBack" role="tabpanel" aria-labelledby="nav-сallBack-tab" tabindex="4">
+          Перезвон
+        </div>
+
+        
+        <div class="tab-pane fade" id="nav-phoneLineError" role="tabpanel" aria-labelledby="nav-phoneLineError-tab" tabindex="5">
+          Ошибка телефонии
         </div>
   
       </div>
