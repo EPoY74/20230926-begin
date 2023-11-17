@@ -1,0 +1,13 @@
+td,
+tr {
+  /* Цвет - gray300 bootstrap */
+  border: 1px solid #dee2e6;
+}
+
+table {
+  width: 99%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
